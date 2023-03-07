@@ -3,6 +3,43 @@
     margin: 0;
 }
 
+h1 {
+    font-size: 6em;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 3.75em;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 3em;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 2.125em;
+    font-weight: 400;
+}
+
+h5 {
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+h6 {
+    font-size: 1.25em;
+    font-weight: 500;
+}
+
+.anchor {
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
+}
+
 html {
     scroll-behavior: smooth;
     font-family: Roboto, serif;
@@ -13,6 +50,15 @@ html {
 
     background-color: #121212;
     color: white;
+}
+
+.container {
+    display: flex;
+    background-color: #1e1e1e;
+
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
 }
 
 .app-title {
@@ -30,4 +76,42 @@ html {
 
 mwc-button {
     --mdc-theme-primary: #90caf9;
+}
+
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.col {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.start {
+    align-items: flex-start;
+}
+
+.end {
+    align-items: flex-end;
+}
+
+.center {
+    align-items: center;
+}
+
+.link {
+    margin: 1em;
+    text-decoration: none;
+    color: #90caf9;
+}
+
+.link:hover {
+    color: #65ae7d;
 }
