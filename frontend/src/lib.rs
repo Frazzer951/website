@@ -19,7 +19,12 @@ pub fn app() -> Html {
     log!("My name is", name);
     log!(serde_json::to_string_pretty(&my_object).unwrap());
 
+    let class = "my_title";
+
     html! {
-    <h1> {"Hello World!"} </h1>
+    <>
+        <h1 class={class}> {"Hello World!"} </h1>
+        <p>{"Hi there!"}</p>
+    </>
     }
 }
