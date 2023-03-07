@@ -1,6 +1,6 @@
 use material_yew::{
-    top_app_bar::{MatTopAppBarActionItems, MatTopAppBarTitle},
-    MatButton, MatTopAppBar,
+    top_app_bar_fixed::{MatTopAppBarActionItems, MatTopAppBarTitle},
+    MatButton, MatTopAppBarFixed,
 };
 use yew::prelude::*;
 
@@ -27,7 +27,7 @@ pub fn Header() -> Html {
     ];
 
     html! {
-        <MatTopAppBar>
+        <MatTopAppBarFixed>
             <MatTopAppBarTitle>
                 <div class="app-title">
                     <h4>{"LUKE ELTISTE"}</h4>
@@ -43,6 +43,6 @@ pub fn Header() -> Html {
             })
             }
 
-        </MatTopAppBar>
+        </MatTopAppBarFixed>
     }
 }
