@@ -1,7 +1,3 @@
-use material_yew::{
-    top_app_bar::{MatTopAppBarActionItems, MatTopAppBarTitle},
-    MatButton, MatTopAppBar,
-};
 use yew::prelude::*;
 use yew_feather::{Github, Linkedin};
 
