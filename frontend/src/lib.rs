@@ -2,7 +2,7 @@ mod components;
 
 use yew::prelude::*;
 
-use crate::components::{header::Header, home::Home};
+use crate::components::{About, Header, Home, Projects};
 
 #[function_component(App)]
 pub fn app() -> Html {
@@ -11,6 +11,9 @@ pub fn app() -> Html {
         <Header />
 
         <Home />
+        <About />
+        <Projects />
+
         </>
     }
 }
