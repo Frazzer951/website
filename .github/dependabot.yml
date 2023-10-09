@@ -15,6 +15,8 @@ updates:
       prefix: "chore:"
     assignees:
       - "frazzer951"
+    groups:
+      - cargo
 
   - package-ecosystem: "github-actions"
     directory: "/"
@@ -26,6 +28,8 @@ updates:
       prefix: "chore:"
     assignees:
       - "frazzer951"
+    groups:
+      - github-actions
 
   - package-ecosystem: "docker"
     directory: "/"
@@ -37,3 +41,5 @@ updates:
       prefix: "chore:"
     assignees:
       - "frazzer951"
+    groups:
+      - docker
