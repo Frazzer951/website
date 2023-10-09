@@ -16,7 +16,9 @@ updates:
     assignees:
       - "frazzer951"
     groups:
-      - cargo
+      cargo:
+        update-types:
+          - "minor"
 
   - package-ecosystem: "github-actions"
     directory: "/"
@@ -29,7 +31,9 @@ updates:
     assignees:
       - "frazzer951"
     groups:
-      - github-actions
+      github-actions:
+        update-types:
+          - "minor"
 
   - package-ecosystem: "docker"
     directory: "/"
@@ -42,4 +46,6 @@ updates:
     assignees:
       - "frazzer951"
     groups:
-      - docker
+      docker:
+        update-types:
+          - "minor"
