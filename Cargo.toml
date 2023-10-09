@@ -1,4 +1,4 @@
 [workspace]
 default-members = ["backend"]
-members         = ["frontend", "backend"]
+members         = ["backend", "frontend"]
 resolver        = "2"
