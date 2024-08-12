@@ -7,7 +7,7 @@ edition = "2021"
 
 [dependencies]
 actix-web     = "4.3"
-actix-web-lab = { version = "0.19", features = ["spa"] }
+actix-web-lab = { version = "0.22", features = ["spa"] }
 derive_more   = "0.99"
-env_logger    = "0.10"
+env_logger    = "0.11"
 log           = "0.4"
