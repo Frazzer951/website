@@ -12,7 +12,7 @@ async fn main() -> std::io::Result<()> {
         App::new().wrap(logger).service(
             spa()
                 .index_file("./dist/index.html")
-                .static_resources_mount("/static")
+                .static_resources_mount("/")
                 .static_resources_location("./dist")
                 .finish(),
         )
